@@ -1,0 +1,74 @@
+        /*Roots*/
+
+        
+:root {
+  --bg: #EBF5FF !important;
+  --lb: #5D86D8 !important;
+  --db: #0C2E74 !important;
+  --red: #B30424 !important;
+  --white: #FCFDFB !important;
+}
+
+
+        /*Style global*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+/* main{
+    margin: 8rem 0 !important;
+} */
+
+section {
+    padding: 0 10rem !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+.bg-bg {
+    background-color: var(--bg);
+}
+
+.bg-lb {
+    background-color: var(--lb);
+}
+
+.bg-db {
+    background-color: var(--db);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.color-db {
+    color: var(--db);
+}
+
+.color-red {
+    color: var(--red);
+}
+
+.img-bo {
+    height: 70px;
+    width: auto;
+}
+
+
+        /*Page Menu*/
+
+
+.menu > div {
+    min-height: 100vh;
+    height: 100%;
+}
